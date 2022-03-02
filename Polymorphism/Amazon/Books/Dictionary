@@ -1,0 +1,13 @@
+package com.xworkz.Polymorphism.Amazon.Books;
+
+public abstract class Dictionary implements Book { 
+	
+public	void read() { 
+	System.out.println("learn to read");	
+	} 
+public	void write() {  
+		System.out.println("learn to write");
+		
+	}
+
+}
